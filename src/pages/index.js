@@ -28,36 +28,36 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, My Name is Muh Shiddiq F 👋`} </h1>
+              <h1>{`Hey, I'm Tania 👋`} </h1>
               <p>
                 {`I'm a full stack software developer creating `}
                 <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
                   open source
-                </a>{' Test '}
-                projects and <Link to="/blog">writing</Link> about Android, Tutorial, Self-Development and
-                Anything on my brain.
+                </a>{' '}
+                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
+                development.
               </p>
-              // <div className="social-buttons">
-              //   <GitHubButton
-              //     href="https://github.com/taniarascia"
-              //     data-size="large"
-              //     data-show-count="true"
-              //   >
-              //     taniarascia
-              //   </GitHubButton>
-              // </div>
+              <div className="social-buttons">
+                <GitHubButton
+                  href="https://github.com/taniarascia"
+                  data-size="large"
+                  data-show-count="true"
+                >
+                  taniarascia
+                </GitHubButton>
+              </div>
             </div>
-            // <div className="newsletter-section">
-            //   <img src={tania} className="newsletter-avatar" alt="Tania" />
-            //   <div>
-            //     <h3>Email Newsletter</h3>
-            //     <p>
-            //       I write tutorials. Get an update when something new comes out by signing up below!
-            //     </p>
-            //     <a className="button" href="https://taniarascia.substack.com">
-            //       Subscribe
-            //     </a>
-            //   </div>
+            <div className="newsletter-section">
+              <img src={tania} className="newsletter-avatar" alt="Tania" />
+              <div>
+                <h3>Email Newsletter</h3>
+                <p>
+                  I write tutorials. Get an update when something new comes out by signing up below!
+                </p>
+                <a className="button" href="https://taniarascia.substack.com">
+                  Subscribe
+                </a>
+              </div>
             </div>
           </div>
         </div>
